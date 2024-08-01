@@ -1,5 +1,6 @@
 ﻿# LinkedList-Phonebook
 
+<pre>
 Phonebook before sorting.
 
 Entry:
@@ -136,3 +137,4 @@ Entry:
 	Address: 263 Kline rd
 	City: Bellingham
 	Phonenumber: 5099801307
+</pre>
