@@ -1,15 +1,11 @@
-//
-//
-//
-//
 public class ListNode {
     String name;
     String address;
     String city;
     String phoneNumber;
-
     protected ListNode next;
 
+    //initializes listnode with name, address, city, and phonenumber values. 
     ListNode(String name, String address, String city, String phoneNumber) {
         this.name = name;
         this.address = address;
@@ -34,10 +30,13 @@ public class ListNode {
             int diff = (this.name.substring((this.name.lastIndexOf(" ")+1),this.name.length()) + this.name.substring(0,(this.name.lastIndexOf(" ")-1))).compareToIgnoreCase(((this.next.name.substring((this.next.name.lastIndexOf(" ")+1),this.next.name.length()) + this.next.name.substring(0,(this.next.name.lastIndexOf(" ")-1)))));
             if (diff > 0) {
                 out = 0;
+                //saves values before swapping
                 String tmp_name = this.name;
                 String tmp_address = this.address;
                 String tmp_city = this.city;
                 String tmp_phoneNumber = this.phoneNumber;
+                
+                //swaps values of present node and next
                 this.name = this.next.name;
                 this.address = this.next.address; 
                 this.city = this.next.city; 
