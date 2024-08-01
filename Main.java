@@ -21,6 +21,8 @@ public class Main {
         pB.add("frank miller", "sample info", "Phoenix", "6021237890");
         pB.add("Grace Lee", "test text", "Denver", "3039871234");
         
+        System.out.println("Phonebook before sorting.");
+
         //prints the Phonebook prettily, but unsortedly.
         System.out.println(pB);
 
@@ -28,11 +30,13 @@ public class Main {
         pB.sortPhoneBook();
 
         //prints new line.
-        System.out.println("");
+        System.out.println("\n");
 
         //Modify Entry based on name. 
         pB.modifyEntry("Zach Wajeeh","Bob Builder",null,null,null);
         
+        System.out.println("Found entry with search term: \"Bob\"");
+
         //finds the entry for bob
         System.out.println("\n\nFound " + pB.findEntry("Bob") + "\n\n");
 
