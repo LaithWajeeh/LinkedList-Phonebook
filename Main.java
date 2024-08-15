@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
         phonebookManager pB = new phonebookManager();
         // adds a few entries into the book.
-        pB.add("Laith Mitchell","263 Kline rd", "Bellingham", "5064591204");
-        pB.add("zach Wajeeh","263 Kline rd", "Bellingham", "5099801307");
-        pB.add("Sam Wajeeh","placeholder", "Aiken, SC", "5098405500");
+        pB.add("Greg Black","address data", "Bellingham", "5091241705");
+        pB.add("Tom Scott","data", "Los Angeles", "5099801307");
+        pB.add("Wade Mould","data", "Aiken, SC", "5094446071");
         pB.add("John Doe", "example data", "Seattle", "2061234567");
         pB.add("Jane Smith", "sample text", "Portland", "5039876543");
         pB.add("Alice Johnson", "info here", "San Francisco", "4155551234");
@@ -33,7 +33,7 @@ public class Main {
         System.out.println("\n");
 
         //Modify Entry based on name. 
-        pB.modifyEntry("Zach Wajeeh","Bob Builder",null,null,null);
+        pB.modifyEntry("Tom Scott","Bob Builder",null,null,null);
         
         System.out.println("Found entry with search term: \"Bob\"");
 
