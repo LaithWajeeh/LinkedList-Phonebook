@@ -4,20 +4,20 @@
 Phonebook before sorting.
 
 Entry:
-	Name: Laith Mitchell
-	Address: 263 Kline rd
+	Name: Anon Anon
+	Address: address data
 	City: Bellingham
 	Phonenumber: 5064591204
 Entry:
-	Name: zach Wajeeh
-	Address: 263 Kline rd
+	Name: zanon wanon
+	Address: address data
 	City: Bellingham
 	Phonenumber: 5099801307
 Entry:
-	Name: Sam Wajeeh
+	Name: San wanon
 	Address: placeholder
 	City: Aiken, SC
-	Phonenumber: 5098405500
+	Phonenumber: 5098887777
 Entry:
 	Name: John Doe
 	Address: example data
@@ -118,8 +118,8 @@ Entry:
 	City: Phoenix
 	Phonenumber: 6021237890
 Entry:
-	Name: Laith Mitchell
-	Address: 263 Kline rd
+	Name: Lanon Wanon
+	Address: address data
 	City: Bellingham
 	Phonenumber: 5064591204
 Entry:
@@ -128,13 +128,13 @@ Entry:
 	City: Portland
 	Phonenumber: 5039876543
 Entry:
-	Name: Sam Wajeeh
+	Name: San Wanon
 	Address: placeholder
 	City: Aiken, SC
-	Phonenumber: 5098405500
+	Phonenumber: 5098887777
 Entry:
-	Name: zach Wajeeh
-	Address: 263 Kline rd
+	Name: zonon Wanon
+	Address: address data
 	City: Bellingham
 	Phonenumber: 5099801307
 </pre>
